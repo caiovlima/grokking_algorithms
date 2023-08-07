@@ -38,5 +38,5 @@
     máximo de etapas que você levaria para encontrar o nome desejado ? 
     Resposta: 7, pois log2 128 = 7... são 7 "divisões" pela metade que chegamos a um único número.
 
-    Se dobrarmos a lista ? Seria 8. Pois log2 256 = 8*/
+    Se dobrarmos a lista? Seria 8. Pois log2 256 = 8*/
 #endregion
