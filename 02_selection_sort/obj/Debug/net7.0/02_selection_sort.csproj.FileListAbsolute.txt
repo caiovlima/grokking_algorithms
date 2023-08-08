@@ -1,0 +1,15 @@
+c:\dev\grokking_algorithms\02_selection_sort\bin\Debug\net7.0\02_selection_sort.exe
+c:\dev\grokking_algorithms\02_selection_sort\bin\Debug\net7.0\02_selection_sort.deps.json
+c:\dev\grokking_algorithms\02_selection_sort\bin\Debug\net7.0\02_selection_sort.runtimeconfig.json
+c:\dev\grokking_algorithms\02_selection_sort\bin\Debug\net7.0\02_selection_sort.dll
+c:\dev\grokking_algorithms\02_selection_sort\bin\Debug\net7.0\02_selection_sort.pdb
+c:\dev\grokking_algorithms\02_selection_sort\obj\Debug\net7.0\02_selection_sort.csproj.AssemblyReference.cache
+c:\dev\grokking_algorithms\02_selection_sort\obj\Debug\net7.0\02_selection_sort.GeneratedMSBuildEditorConfig.editorconfig
+c:\dev\grokking_algorithms\02_selection_sort\obj\Debug\net7.0\02_selection_sort.AssemblyInfoInputs.cache
+c:\dev\grokking_algorithms\02_selection_sort\obj\Debug\net7.0\02_selection_sort.AssemblyInfo.cs
+c:\dev\grokking_algorithms\02_selection_sort\obj\Debug\net7.0\02_selection_sort.csproj.CoreCompileInputs.cache
+c:\dev\grokking_algorithms\02_selection_sort\obj\Debug\net7.0\02_selection_sort.dll
+c:\dev\grokking_algorithms\02_selection_sort\obj\Debug\net7.0\refint\02_selection_sort.dll
+c:\dev\grokking_algorithms\02_selection_sort\obj\Debug\net7.0\02_selection_sort.pdb
+c:\dev\grokking_algorithms\02_selection_sort\obj\Debug\net7.0\02_selection_sort.genruntimeconfig.cache
+c:\dev\grokking_algorithms\02_selection_sort\obj\Debug\net7.0\ref\02_selection_sort.dll
