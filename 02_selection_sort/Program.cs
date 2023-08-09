@@ -3,8 +3,16 @@ Console.WriteLine("02 Selection Sort");
 
 
 var arr = new List<int> { 5, 3, 6, 2, 10 };
-Console.WriteLine("Lista Não Ordenada: " + arr);
+var arrInt = new int[]{ 5, 3, 6, 2, 10 };
+
+Console.WriteLine("Lista Não Ordenada: " + arr.ToList());
 Console.WriteLine("Lista Ordenada: " + string.Join(", ", SelectionSort(arr)));
+
+Console.WriteLine("================================================================");
+Console.WriteLine("Lista Ordenada com apenas um loop: " + string.Join(", ", SelectionSortOneLoop(arrInt)));
+
+
+
 
 static int[] SelectionSort(List<int> arr)
 {
@@ -34,42 +42,45 @@ static int FindSmallest(List<int> arr)
 }
 
 #region Other Methods
-// static int[] SelectionSort(int[] unorderedArray)
-// {
-//     for (var i = 0; i < unorderedArray.Length; i++)
-//     {
-//         var smallestIndex = i;
+#region SelectionSort Using One Loop
+static int[] SelectionSortOneLoop(int[] unorderedArray)
+{
+    for (var i = 0; i < unorderedArray.Length; i++)
+    {
+        var smallestIndex = i;
 
-//         for (var remainingIndex = i + 1; remainingIndex < unorderedArray.Length; remainingIndex++)
-//         {
-//             if (unorderedArray[remainingIndex] < unorderedArray[smallestIndex])
-//             {
-//                 smallestIndex = remainingIndex;
-//             }
-//         }
-//         (unorderedArray[i], unorderedArray[smallestIndex]) = (unorderedArray[smallestIndex], unorderedArray[i]);
-//     }
+        for (var remainingIndex = i + 1; remainingIndex < unorderedArray.Length; remainingIndex++)
+        {
+            if (unorderedArray[remainingIndex] < unorderedArray[smallestIndex])
+            {
+                smallestIndex = remainingIndex;
+            }
+        }
+        (unorderedArray[i], unorderedArray[smallestIndex]) = (unorderedArray[smallestIndex], unorderedArray[i]);
+    }
 
-//     return unorderedArray;
-// }
+    return unorderedArray;
+}
+#endregion
 
+#region Selection Sort With Link
+static IEnumerable<int> SelectionSortUsingLink(LinkedList<int> list)
+{
+    var minList = new LinkedList<int>();
+    var maxList = new LinkedList<int>();
 
-// static IEnumerable<int> SelectionSort(LinkedList<int> list)
-// {
-//     var minList = new LinkedList<int>();
-//     var maxList = new LinkedList<int>();
+    while (list.Count != 0)
+    {
+        var min = list.Min();
+        list.Remove(min);
+        minList.AddLast(min);
 
-//     while (list.Count != 0)
-//     {
-//         var min = list.Min();
-//         list.Remove(min);
-//         minList.AddLast(min);
+        var max = list.Max();
+        list.Remove(max);
+        maxList.AddFirst(max);
+    }
 
-//         var max = list.Max();
-//         list.Remove(max);
-//         maxList.AddFirst(max);
-//     }
-
-//     return minList.Union(maxList);
-// }
+    return minList.Union(maxList);
+}
+#endregion
 #endregion
