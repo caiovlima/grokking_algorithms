@@ -49,3 +49,16 @@ static IEnumerable<int> QuickSort(IEnumerable<int> list)
 }
 
 #endregion
+
+#region  Considerações
+/*1 - QuickSort consiste em dividir o problema em problema menores
+o base case de uma lista será uma lista vazia ou com apenas um item
+
+2 - Escolha um pivo (o ideal é pegar um número central da lista)
+Divide a lista em duas
+lista maior com numeros maiores que o pivo
+lista menor com numeros menores que o pivo
+
+faça a união dessas listas com base na recursividade do quicksort 
+o Union utiliza o pivo como numero central para a união dessas list*/
+#endregion
