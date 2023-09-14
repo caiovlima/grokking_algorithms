@@ -1,0 +1,15 @@
+c:\dev\grokking_algorithms\06_breadth-first_search\bin\Debug\net7.0\06_breadth-first_search.exe
+c:\dev\grokking_algorithms\06_breadth-first_search\bin\Debug\net7.0\06_breadth-first_search.deps.json
+c:\dev\grokking_algorithms\06_breadth-first_search\bin\Debug\net7.0\06_breadth-first_search.runtimeconfig.json
+c:\dev\grokking_algorithms\06_breadth-first_search\bin\Debug\net7.0\06_breadth-first_search.dll
+c:\dev\grokking_algorithms\06_breadth-first_search\bin\Debug\net7.0\06_breadth-first_search.pdb
+c:\dev\grokking_algorithms\06_breadth-first_search\obj\Debug\net7.0\06_breadth-first_search.csproj.AssemblyReference.cache
+c:\dev\grokking_algorithms\06_breadth-first_search\obj\Debug\net7.0\06_breadth-first_search.GeneratedMSBuildEditorConfig.editorconfig
+c:\dev\grokking_algorithms\06_breadth-first_search\obj\Debug\net7.0\06_breadth-first_search.AssemblyInfoInputs.cache
+c:\dev\grokking_algorithms\06_breadth-first_search\obj\Debug\net7.0\06_breadth-first_search.AssemblyInfo.cs
+c:\dev\grokking_algorithms\06_breadth-first_search\obj\Debug\net7.0\06_breadth-first_search.csproj.CoreCompileInputs.cache
+c:\dev\grokking_algorithms\06_breadth-first_search\obj\Debug\net7.0\06_breadth-first_search.dll
+c:\dev\grokking_algorithms\06_breadth-first_search\obj\Debug\net7.0\refint\06_breadth-first_search.dll
+c:\dev\grokking_algorithms\06_breadth-first_search\obj\Debug\net7.0\06_breadth-first_search.pdb
+c:\dev\grokking_algorithms\06_breadth-first_search\obj\Debug\net7.0\06_breadth-first_search.genruntimeconfig.cache
+c:\dev\grokking_algorithms\06_breadth-first_search\obj\Debug\net7.0\ref\06_breadth-first_search.dll

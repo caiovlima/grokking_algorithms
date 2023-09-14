@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "06_breadth-first_search/1.0.0": {
+        "runtime": {
+          "06_breadth-first_search.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "06_breadth-first_search/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
